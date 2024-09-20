@@ -6,10 +6,22 @@ body {
 
 
 header {
+   
     height:40px;
     display:flex;
     justify-content: right;
 }
+
+.company_name{
+   
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 
 nav {
     height:100%;
@@ -24,12 +36,13 @@ nav {
     padding-right: 10px;
 }
 
-h1 {
-    margin:0;
+.header-text
+ {
     font-size: 22pt;
     width:100%;
     display:flex;
     justify-content: center;
+    padding-left:60px;
     color:rgb(71, 108, 28);
 }
 
@@ -97,4 +110,44 @@ button:hover {
 
 a:hover{
 color:white;
+}
+
+.logo {
+    margin-top:10px;
+    height:150px;
+    width:100%;
+    background: linear-gradient(90deg, #cfecd0, #ffc5ca);
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+}
+
+.logo_img {
+    height:80%;
+    width:10%;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.logo_in {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.with-text {
+    height: 100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text_in_logo {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 40px;
 }
